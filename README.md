@@ -46,11 +46,7 @@ go build -o cloudigest
 The CLI interface provides the following commands:
 
 ```
-cloudigest analyze diagram [file] - Analyze architecture diagrams
-```
-
-```
-cloudigest analyze doc [file] - Analyze documentation
+cloudigest analyze [file] - Analyze architecture diagrams or documentation
 ```
 
 ```
