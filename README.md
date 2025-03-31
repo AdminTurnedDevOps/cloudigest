@@ -80,14 +80,8 @@ cloudigest --help
 # Scan a Kubernetes cluster
 cloudigest scan kubernetes
 
-# Analyze an architecture diagram
-cloudigest analyze diagram --file path/to/diagram.png
-
-# Upload documentation
-cloudigest analyze doc --file path/to/spec.pdf
-
-# Get recommendations for existing infrastructure
-cloudigest recommend --target kubernetes
+# Analyze an architecture diagram or doc
+cloudigest analyze file_name
 ```
 
 ## Requirements
