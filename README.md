@@ -33,10 +33,7 @@ CloudDigest is an intelligent infrastructure optimization companion that helps e
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/cloudigest.git
-
-# Change to the project directory
-cd cloudigest
+git clone https://github.com/AdminTurnedDevOps/cloudigest
 
 # Install dependencies
 go mod download
