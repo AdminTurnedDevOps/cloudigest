@@ -103,13 +103,29 @@ Create a configuration file at `~/.cloudigest/config.yaml` with your API keys an
 
 ```yaml
 openai:
-  api_key: your-api-key-here
+  api_key: "your-openai-api-key-here"
+
+# Optional
+claude:
+  api_key: "your-claude-api-key-here"
+
+serper:
+  api_key: "your-serper-api-key-here"
 
 scanning:
   kubernetes: true
   cloud_providers:
     - aws
     - azure
+    - gcp
+
+rag:
+  chunk_size: 500
+  max_tokens: 2000
+  sources:
+    - url: "https://controlplane.com/community-blog/post/optimize-kubernetes-workloads"
+      type: "article"
+      name: "Kubernetes Workload Optimization Guide" 
 ```
 
 ## License
