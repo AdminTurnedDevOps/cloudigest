@@ -57,7 +57,9 @@ cloudigest scan kubernetes - Scan Kubernetes clusters
 cloudigest scan vm - Scan virtual machines
 ```
 
+```
 cloudigest query [question] - Query the knowledge base
+```
 
 To use the tool:
 - Copy the config.yaml file to ~/.cloudigest/config.yaml
@@ -75,6 +77,9 @@ cloudigest scan kubernetes
 
 # Analyze an architecture diagram or doc
 cloudigest analyze file_name
+
+# Query the KB
+cloudigest query "what is the best way to deploy a kubernetes cluster?"
 ```
 
 ## Requirements
