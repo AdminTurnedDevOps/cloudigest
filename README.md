@@ -1,5 +1,9 @@
 # CloudDigest
 
+<p align="center">
+ <img src="images/logo.png?raw=true" alt="Logo" width="50%" height="50%" />
+</p>
+
 CloudDigest is an intelligent infrastructure optimization companion that helps engineers make informed decisions about running their infrastructure, services, and containers. It provides recommendations and best practices without implementing them directly, acting as a knowledgeable advisor for your infrastructure decisions.
 
 ## Features
